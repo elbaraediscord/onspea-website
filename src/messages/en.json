@@ -92,6 +92,11 @@
     "benefit2": "Extended national business network",
     "benefit3": "Legal assistance and advice",
     "formTitle": "Membership Request",
+    "whyJoin": "Why join us?",
+    "whyJoinDesc": "Joining ONSPEA means joining the leading employer union organization in Algeria. We represent entrepreneurs of all sizes and sectors, from SMEs to large national companies.",
+    "benefit1Desc": "A strong voice with decision-makers to influence economic policies.",
+    "benefit2Desc": "Access to business opportunities and strategic partnerships.",
+    "benefit3Desc": "Expert advice to secure and optimize your business.",
     "downloadForm": "Download paper form (PDF)",
     "fields": {
       "companyName": "Company Name",

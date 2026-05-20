@@ -11,9 +11,9 @@ export default async function AdhesionPage({ params }: { params: Promise<{ local
   const t = await getTranslations('membership');
 
   const benefits = [
-    { title: t('benefit1'), desc: "Une voix forte auprès des décideurs pour influencer les politiques économiques." },
-    { title: t('benefit2'), desc: "Accès à des opportunités d'affaires et des partenariats stratégiques." },
-    { title: t('benefit3'), desc: "Conseils d'experts pour sécuriser et optimiser votre activité." }
+    { title: t('benefit1'), desc: t('benefit1Desc') },
+    { title: t('benefit2'), desc: t('benefit2Desc') },
+    { title: t('benefit3'), desc: t('benefit3Desc') }
   ];
 
   return (
@@ -39,9 +39,9 @@ export default async function AdhesionPage({ params }: { params: Promise<{ local
 
         <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <h3 className="text-2xl font-bold text-navy">Pourquoi nous rejoindre ?</h3>
+            <h3 className="text-2xl font-bold text-navy">{t('whyJoin')}</h3>
             <p className="text-slate leading-relaxed">
-              Rejoindre l'ONSPEA, c'est intégrer la première organisation syndicale patronale d'Algérie. Nous représentons les entrepreneurs de toutes tailles et de tous secteurs, des TPE aux grandes entreprises nationales.
+              {t('whyJoinDesc')}
             </p>
             {/* <div className="bg-navy p-8 rounded-2xl text-white">
               <h4 className="text-xl font-bold mb-4 text-gold">Dossier d'adhésion</h4>

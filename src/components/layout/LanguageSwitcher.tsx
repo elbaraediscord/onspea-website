@@ -16,9 +16,11 @@ const LanguageSwitcher = () => {
     
     // Construct the URL: /locale/path/
     // We ensure no double slashes by cleaning the parts
-    const targetUrl = `/${newLocale}${base}/`.replace(/\/+/g, '/');
+    // We also ensure we don't accidentally append the locale twice
+    const targetUrl = `/${newLocale}/${base}/`.replace(/\/+/g, '/');
     
-    window.location.href = targetUrl;
+    // Use window.location.origin to ensure we are using the full absolute URL
+    window.location.href = window.location.origin + targetUrl;
   };
 
   const languages = [

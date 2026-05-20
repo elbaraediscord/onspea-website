@@ -92,6 +92,11 @@
     "benefit2": "Réseau d'affaires national étendu",
     "benefit3": "Assistance juridique et conseil",
     "formTitle": "Demande d'adhésion",
+    "whyJoin": "Pourquoi nous rejoindre ?",
+    "whyJoinDesc": "Rejoindre l'ONSPEA, c'est intégrer la première organisation syndicale patronale d'Algérie. Nous représentons les entrepreneurs de toutes tailles et de tous secteurs, des TPE aux grandes entreprises nationales.",
+    "benefit1Desc": "Une voix forte auprès des décideurs pour influencer les politiques économiques.",
+    "benefit2Desc": "Accès à des opportunités d'affaires et des partenariats stratégiques.",
+    "benefit3Desc": "Conseils d'experts pour sécuriser et optimiser votre activité.",
     "downloadForm": "Télécharger le formulaire papier (PDF)",
     "fields": {
       "companyName": "Raison sociale",
