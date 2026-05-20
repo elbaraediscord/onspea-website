@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { Facebook, Instagram, Youtube, Phone, Mail, MapPin } from 'lucide-react';
 import MailButton from '../ui/MailButton';
@@ -7,6 +7,7 @@ import MailButton from '../ui/MailButton';
 const Footer = () => {
   const t = useTranslations('footer');
   const nt = useTranslations('nav');
+  const locale = useLocale();
 
   return (
     <footer className="bg-[#001833] text-white pt-16 pb-8">
@@ -71,8 +72,13 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <div className="text-xs text-gray-500">
-            © ONSPEA 2026 · {t('rights')}
+          <div className="flex items-center space-x-4 rtl:space-x-reverse">
+            <div className="text-xs text-gray-500">
+              © ONSPEA 2026 · {t('rights')}
+            </div>
+            <span className="px-2 py-0.5 bg-white/5 text-[10px] text-gold rounded uppercase font-bold border border-white/10">
+              Locale: {locale}
+            </span>
           </div>
           <div className="flex space-x-6 rtl:space-x-reverse text-xs text-gray-500">
             <Link href="/mentions-legales" className="hover:text-gold transition-colors">{t('legal')}</Link>

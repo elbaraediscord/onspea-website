@@ -3,11 +3,12 @@ import SectionTitle from '@/components/ui/SectionTitle';
 import Card from '@/components/ui/Card';
 import { CheckCircle2, Download, Send } from 'lucide-react';
 import Button from '@/components/ui/Button';
-import { getLocale, getTranslations } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
-export default async function AdhesionPage() {
+export default async function AdhesionPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  unstable_setRequestLocale(locale);
   const t = await getTranslations('membership');
-  const locale = await getLocale();
 
   const benefits = [
     { title: t('benefit1'), desc: "Une voix forte auprès des décideurs pour influencer les politiques économiques." },
