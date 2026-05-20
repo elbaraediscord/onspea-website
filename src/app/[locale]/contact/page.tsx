@@ -5,9 +5,12 @@ import Card from '@/components/ui/Card';
 import { Phone, Mail, MapPin, Facebook, Instagram, Youtube } from 'lucide-react';
 import Button from '@/components/ui/Button';
 
+import { getLocale, getTranslations } from 'next-intl/server';
+
 export default async function ContactPage() {
   const t = await getTranslations('contact');
   const ft = await getTranslations('footer');
+  const locale = await getLocale();
 
   return (
     <div className="py-20">
@@ -76,7 +79,11 @@ export default async function ContactPage() {
             </div>
             <h3 className="text-xl font-bold text-navy mb-4">{t('formTitle')}</h3>
             <p className="text-slate max-w-md">
-              Notre formulaire de contact en ligne est temporairement désactivé. Veuillez nous contacter directement par e-mail ou par téléphone.
+              {locale === 'ar' 
+                ? 'نموذج الاتصال عبر الإنترنت معطل مؤقتاً. يرجى الاتصال بنا مباشرة عبر البريد الإلكتروني أو الهاتف.' 
+                : (locale === 'en' 
+                  ? 'Our online contact form is temporarily disabled. Please contact us directly by email or phone.' 
+                  : 'Notre formulaire de contact en ligne est temporairement désactivé. Veuillez nous contacter directement par e-mail ou par téléphone.')}
             </p>
           </div>
         </div>

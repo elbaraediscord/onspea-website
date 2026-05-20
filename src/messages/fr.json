@@ -29,7 +29,9 @@
     "history": "Notre histoire",
     "missions": "Missions & Valeurs",
     "bureau": "Bureau national",
-    "statuts": "Statuts & Règlement"
+    "statuts": "Statuts & Règlement",
+    "homeDesc1": "L'Organisation Nationale Syndicale du Patronat et des Entrepreneurs Algériens (ONSPEA) est une organisation patronale majeure en Algérie. Elle œuvre pour la défense des intérêts des entreprises et participe activement au dialogue économique national.",
+    "homeDesc2": "Présente à travers le pays, l'ONSPEA fédère des entrepreneurs de tous secteurs d'activité pour construire ensemble l'économie de demain."
   },
   "missions": {
     "title": "Nos missions",

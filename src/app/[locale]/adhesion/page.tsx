@@ -5,8 +5,11 @@ import Card from '@/components/ui/Card';
 import { CheckCircle2, Download, Send } from 'lucide-react';
 import Button from '@/components/ui/Button';
 
+import { getLocale, getTranslations } from 'next-intl/server';
+
 export default async function AdhesionPage() {
   const t = await getTranslations('membership');
+  const locale = await getLocale();
 
   const benefits = [
     { title: t('benefit1'), desc: "Une voix forte auprès des décideurs pour influencer les politiques économiques." },
@@ -60,7 +63,13 @@ export default async function AdhesionPage() {
             </form>
           </Card> */}
           <div className="flex items-center justify-center bg-offwhite rounded-2xl p-12 border-2 border-dashed border-gold/30">
-            <p className="text-navy font-bold text-center">Le formulaire d'adhésion en ligne sera bientôt disponible.</p>
+            <p className="text-navy font-bold text-center">
+              {locale === 'ar' 
+                ? 'استمارة الانخراط عبر الإنترنت ستكون متاحة قريباً.' 
+                : (locale === 'en' 
+                  ? 'The online membership form will be available soon.' 
+                  : 'Le formulaire d\'adhésion en ligne sera bientôt disponible.')}
+            </p>
           </div>
         </div>
       </div>

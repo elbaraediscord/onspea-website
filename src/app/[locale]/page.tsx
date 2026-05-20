@@ -31,10 +31,10 @@ export default async function HomePage() {
                 subtitle={t('sectionSub')}
               />
               <p className="text-slate text-lg leading-relaxed mb-8">
-                L'Organisation Nationale Syndicale du Patronat et des Entrepreneurs Algériens (ONSPEA) est une organisation patronale majeure en Algérie. Elle œuvre pour la défense des intérêts des entreprises et participe activement au dialogue économique national.
+                {t('homeDesc1')}
               </p>
               <p className="text-slate text-lg leading-relaxed mb-10">
-                Présente à travers le pays, l'ONSPEA fédère des entrepreneurs de tous secteurs d'activité pour construire ensemble l'économie de demain.
+                {t('homeDesc2')}
               </p>
               <Link href="/a-propos">
                 <Button variant="outline">
