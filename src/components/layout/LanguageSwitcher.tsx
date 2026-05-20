@@ -11,20 +11,12 @@ const LanguageSwitcher = () => {
 
   const switchLocale = (newLocale: string) => {
     // pathname from usePathname() is already "clean" (no locale prefix)
-    // We just need to ensure we don't create double slashes
+    // With localePrefix: 'always', we ALWAYS want /locale/path/
     const base = pathname === '/' ? '' : pathname;
     
-    let targetUrl = '';
-    if (newLocale === 'fr') {
-      targetUrl = base || '/';
-    } else {
-      targetUrl = `/${newLocale}${base}`;
-    }
-    
-    // Ensure it ends with a single slash for static hosting consistency
-    if (!targetUrl.endsWith('/')) {
-      targetUrl += '/';
-    }
+    // Construct the URL: /locale/path/
+    // We ensure no double slashes by cleaning the parts
+    const targetUrl = `/${newLocale}${base}/`.replace(/\/+/g, '/');
     
     window.location.href = targetUrl;
   };

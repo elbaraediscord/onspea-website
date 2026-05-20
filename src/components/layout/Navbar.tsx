@@ -34,8 +34,10 @@ const Navbar = () => {
   ];
 
   const isActive = (path: string) => {
-    if (path === '/' && pathname === '/') return true;
-    if (path !== '/' && pathname.startsWith(path)) return true;
+    const cleanPath = path === '/' ? '' : path;
+    const cleanPathname = pathname === '/' ? '' : pathname;
+    if (cleanPath === '' && cleanPathname === '') return true;
+    if (cleanPath !== '' && cleanPathname.startsWith(cleanPath)) return true;
     return false;
   };
 
