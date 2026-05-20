@@ -10,9 +10,12 @@ const LanguageSwitcher = () => {
   const pathname = usePathname();
 
   const switchLocale = (newLocale: string) => {
-    // Using window.location to force a clean reload with the new locale
-    // This avoids issues with nested locale prefixes
-    window.location.href = `/${newLocale}${pathname}`;
+    const cleanPath = pathname === '/' ? '' : pathname;
+    if (newLocale === 'fr') {
+      window.location.href = `${cleanPath}/` || '/';
+    } else {
+      window.location.href = `/${newLocale}${cleanPath}/`;
+    }
   };
 
   const languages = [
