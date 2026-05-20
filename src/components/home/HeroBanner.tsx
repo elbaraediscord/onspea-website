@@ -11,8 +11,17 @@ const HeroBanner = () => {
 
   return (
     <section className="relative min-h-[calc(100vh-76px)] flex items-center overflow-hidden bg-navy">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: 'url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070&auto=format&fit=crop")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center'
+        }}
+      />
       {/* Background Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-r from-navy-deep via-navy to-navy-light opacity-90 z-10" />
+      <div className="absolute inset-0 bg-navy/80 z-10" />
       
       {/* Content */}
       <div className="container mx-auto px-4 md:px-8 lg:px-16 relative z-20 py-20">

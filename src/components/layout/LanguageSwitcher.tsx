@@ -10,7 +10,9 @@ const LanguageSwitcher = () => {
   const pathname = usePathname();
 
   const switchLocale = (newLocale: string) => {
-    router.replace(pathname, { locale: newLocale });
+    // Using window.location to force a clean reload with the new locale
+    // This avoids issues with nested locale prefixes
+    window.location.href = `/${newLocale}${pathname}`;
   };
 
   const languages = [

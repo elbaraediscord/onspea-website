@@ -70,32 +70,15 @@ export default async function ContactPage() {
           </div>
           
           {/* Contact Form Placeholder */}
-          <Card className="p-8">
-            <h3 className="text-2xl font-bold text-navy mb-8">{t('formTitle')}</h3>
-            <form className="space-y-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="space-y-2">
-                  <label className="text-sm font-bold text-navy">{t('fields.name')}</label>
-                  <input type="text" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-gold focus:ring-1 focus:ring-gold outline-none transition-all" />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm font-bold text-navy">{t('fields.email')}</label>
-                  <input type="email" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-gold focus:ring-1 focus:ring-gold outline-none transition-all" />
-                </div>
-              </div>
-              <div className="space-y-2">
-                <label className="text-sm font-bold text-navy">{t('fields.subject')}</label>
-                <input type="text" className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-gold focus:ring-1 focus:ring-gold outline-none transition-all" />
-              </div>
-              <div className="space-y-2">
-                <label className="text-sm font-bold text-navy">{t('fields.message')}</label>
-                <textarea rows={5} className="w-full px-4 py-3 rounded-lg border border-gray-200 focus:border-gold focus:ring-1 focus:ring-gold outline-none transition-all resize-none"></textarea>
-              </div>
-              <Button variant="primary" className="w-full py-4 font-bold">
-                {t('fields.submit')}
-              </Button>
-            </form>
-          </Card>
+          <div className="flex flex-col items-center justify-center bg-offwhite rounded-2xl p-12 border-2 border-dashed border-gold/30 text-center">
+            <div className="bg-gold/10 p-4 rounded-full mb-6">
+              <Mail className="w-8 h-8 text-gold" />
+            </div>
+            <h3 className="text-xl font-bold text-navy mb-4">{t('formTitle')}</h3>
+            <p className="text-slate max-w-md">
+              Notre formulaire de contact en ligne est temporairement désactivé. Veuillez nous contacter directement par e-mail ou par téléphone.
+            </p>
+          </div>
         </div>
       </div>
     </div>
