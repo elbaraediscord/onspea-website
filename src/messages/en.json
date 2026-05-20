@@ -49,6 +49,21 @@
     "title": "Latest News",
     "sub": "Official communiqués and organizational life",
     "viewAll": "View all news",
+    "news1": {
+      "title": "National Executive Bureau Meeting — Algiers, May 2026",
+      "category": "Official Communiqué",
+      "excerpt": "The National Executive Bureau of ONSPEA met on May 15, 2026, at the organization's headquarters in Algiers to examine the priority files of the Algerian employers."
+    },
+    "news2": {
+      "title": "Regional Economic Forum — Oran",
+      "category": "Economic News",
+      "excerpt": "A look back at the highlights of the regional economic forum in Oran, which brought together more than 200 entrepreneurs from western Algeria."
+    },
+    "news3": {
+      "title": "Signing of a partnership agreement with the Bank of Algeria",
+      "category": "Partnerships & Conventions",
+      "excerpt": "ONSPEA strengthens its financial support for its members through a new strategic agreement."
+    },
     "categories": {
       "communique": "Official Communiqué",
       "vie-organisation": "Organizational Life",

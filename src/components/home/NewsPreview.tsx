@@ -8,30 +8,29 @@ import ArticleCard from '../actualites/ArticleCard';
 const NewsPreview = () => {
   const t = useTranslations('news');
 
-  // Placeholder news data until MDX is set up
   const placeholderNews = [
     {
       slug: 'reunion-bureau-national-mai-2026',
-      title: 'Réunion du Bureau Exécutif National — Alger, Mai 2026',
+      title: t('news1.title'),
       date: '2026-05-15',
-      category: 'communique',
-      excerpt: "Le Bureau Exécutif National de l'ONSPEA s'est réuni le 15 mai 2026 au siège de l'organisation à Alger pour examiner les dossiers prioritaires du patronat algérien.",
+      category: t('news1.category'),
+      excerpt: t('news1.excerpt'),
       coverImage: '/images/actualites/reunion-mai-2026.jpg'
     },
     {
       slug: 'forum-economique-oran-2026',
-      title: 'Forum Économique Régional — Oran',
+      title: t('news2.title'),
       date: '2026-04-20',
-      category: 'actualite-economique',
-      excerpt: "Retour sur les moments forts du forum économique régional d'Oran qui a réuni plus de 200 entrepreneurs de l'Ouest algérien.",
+      category: t('news2.category'),
+      excerpt: t('news2.excerpt'),
       coverImage: '/images/actualites/forum-oran.jpg'
     },
     {
       slug: 'convention-partenariat-banque',
-      title: "Signature d'une convention de partenariat avec la Banque d'Algérie",
+      title: t('news3.title'),
       date: '2026-03-10',
-      category: 'partenariats',
-      excerpt: "L'ONSPEA renforce son accompagnement financier pour ses membres à travers une nouvelle convention stratégique.",
+      category: t('news3.category'),
+      excerpt: t('news3.excerpt'),
       coverImage: '/images/actualites/convention.jpg'
     }
   ];

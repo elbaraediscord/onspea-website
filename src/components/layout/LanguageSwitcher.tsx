@@ -15,12 +15,13 @@ const LanguageSwitcher = () => {
     const base = pathname === '/' ? '' : pathname;
     
     // Construct the URL: /locale/path/
-    // We ensure no double slashes by cleaning the parts
-    // We also ensure we don't accidentally append the locale twice
-    const targetUrl = `/${newLocale}/${base}/`.replace(/\/+/g, '/');
+    // With localePrefix: 'always', the URL is always /locale/path/
+    // pathname from usePathname() is the path AFTER the locale prefix
+    const cleanPath = base.startsWith('/') ? base : `/${base}`;
+    const targetUrl = `/${newLocale}${cleanPath}`.replace(/\/+$/, '') + '/';
+    const finalUrl = targetUrl.replace(/\/+/g, '/');
     
-    // Use window.location.origin to ensure we are using the full absolute URL
-    window.location.href = window.location.origin + targetUrl;
+    window.location.href = window.location.origin + finalUrl;
   };
 
   const languages = [
