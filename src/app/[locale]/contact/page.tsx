@@ -1,10 +1,8 @@
 import React from 'react';
-import { getTranslations } from 'next-intl/server';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Card from '@/components/ui/Card';
 import { Phone, Mail, MapPin, Facebook, Instagram, Youtube } from 'lucide-react';
 import Button from '@/components/ui/Button';
-
 import { getLocale, getTranslations } from 'next-intl/server';
 
 export default async function ContactPage() {
