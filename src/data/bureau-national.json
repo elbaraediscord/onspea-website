@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "name": "Ahmed Benali",
+    "role": "Président National",
+    "roleAr": "الرئيس الوطني",
+    "roleEn": "National President",
+    "photo": "/images/bureau/placeholder.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Mohamed Mansouri",
+    "role": "Vice-Président",
+    "roleAr": "نائب الرئيس",
+    "roleEn": "Vice-President",
+    "photo": "/images/bureau/placeholder.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Fatima Zohra Brahimi",
+    "role": "Vice-Présidente",
+    "roleAr": "نائبة الرئيس",
+    "roleEn": "Vice-President",
+    "photo": "/images/bureau/placeholder.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Yacine Kaci",
+    "role": "Secrétaire Général",
+    "roleAr": "الأمين العام",
+    "roleEn": "Secretary General",
+    "photo": "/images/bureau/placeholder.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Karim Haddad",
+    "role": "Trésorier",
+    "roleAr": "أمين المال",
+    "roleEn": "Treasurer",
+    "photo": "/images/bureau/placeholder.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Omar Belkacem",
+    "role": "Membre",
+    "roleAr": "عضو",
+    "roleEn": "Member",
+    "photo": "/images/bureau/placeholder.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Lydia Amrani",
+    "role": "Membre",
+    "roleAr": "عضو",
+    "roleEn": "Member",
+    "photo": "/images/bureau/placeholder.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Rachid Meziane",
+    "role": "Membre",
+    "roleAr": "عضو",
+    "roleEn": "Member",
+    "photo": "/images/bureau/placeholder.jpg"
+  }
+]

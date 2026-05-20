@@ -1,0 +1,2 @@
+# Redirect www to apex
+https://www.onspea-centre.com/* https://onspea-centre.com/:splat 301

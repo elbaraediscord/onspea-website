@@ -1,0 +1,6 @@
+[
+  { "value": "48", "label": "Wilayas représentées", "labelAr": "ولاية ممثلة", "labelEn": "Wilayas represented", "icon": "MapPin" },
+  { "value": "500+", "label": "Membres actifs", "labelAr": "عضو نشط", "labelEn": "Active members", "icon": "Users" },
+  { "value": "12", "label": "Commissions nationales", "labelAr": "لجنة وطنية", "labelEn": "National commissions", "icon": "Building2" },
+  { "value": "30+", "label": "Événements annuels", "labelAr": "فعالية سنوية", "labelEn": "Annual events", "icon": "Calendar" }
+]

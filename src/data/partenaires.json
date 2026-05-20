@@ -1,0 +1,10 @@
+[
+  { "id": "1", "name": "Ministère de l'Économie", "logo": "/images/partners/min-eco.svg", "category": "institutionnel" },
+  { "id": "2", "name": "Chambre de Commerce", "logo": "/images/partners/cci.svg", "category": "institutionnel" },
+  { "id": "3", "name": "Banque d'Algérie", "logo": "/images/partners/bank-dz.svg", "category": "economique" },
+  { "id": "4", "name": "Bourse d'Alger", "logo": "/images/partners/bourse.svg", "category": "economique" },
+  { "id": "5", "name": "Organisation Internationale du Travail", "logo": "/images/partners/oit.svg", "category": "international" },
+  { "id": "6", "name": "Union Européenne", "logo": "/images/partners/ue.svg", "category": "international" },
+  { "id": "7", "name": "El Moudjahid", "logo": "/images/partners/el-moudjahid.svg", "category": "media" },
+  { "id": "8", "name": "Algerie Presse Service", "logo": "/images/partners/aps.svg", "category": "media" }
+]

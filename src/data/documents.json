@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Statuts de l'ONSPEA",
+    "titleAr": "القانون الأساسي للمنظمة",
+    "filename": "statuts-onspea.pdf",
+    "category": "fondateurs",
+    "date": "2026-01-01",
+    "size": "450 Ko",
+    "restricted": false
+  },
+  {
+    "id": "2",
+    "title": "Formulaire d'adhésion 2026",
+    "titleAr": "استمارة الانخراط 2026",
+    "filename": "formulaire-adhesion.pdf",
+    "category": "adhesion",
+    "date": "2026-01-10",
+    "size": "280 Ko",
+    "restricted": false
+  },
+  {
+    "id": "3",
+    "title": "Rapport d'activité 2025",
+    "titleAr": "تقرير النشاط 2025",
+    "filename": "rapport-2025.pdf",
+    "category": "rapports",
+    "date": "2026-02-15",
+    "size": "1.2 Mo",
+    "restricted": false
+  },
+  {
+    "id": "4",
+    "title": "Circulaire relative à l'investissement",
+    "titleAr": "منشور حول الاستثمار",
+    "filename": "circulaire-investissement.pdf",
+    "category": "circulaires",
+    "date": "2026-03-05",
+    "size": "320 Ko",
+    "restricted": false
+  },
+  {
+    "id": "5",
+    "title": "Guide de l'entrepreneur",
+    "titleAr": "دليل المقاول",
+    "filename": "guide-entrepreneur.pdf",
+    "category": "publications",
+    "date": "2026-04-20",
+    "size": "2.5 Mo",
+    "restricted": false
+  },
+  {
+    "id": "6",
+    "title": "Compte-rendu Assemblée Générale",
+    "titleAr": "محضر الجمعية العامة",
+    "filename": "cr-ag-2026.pdf",
+    "category": "comptes-rendus",
+    "date": "2026-05-01",
+    "size": "560 Ko",
+    "restricted": false
+  }
+]

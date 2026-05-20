@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "news": "Actualités",
+    "events": "Événements",
+    "membership": "Adhésion",
+    "directory": "Annuaire",
+    "media": "Médiathèque",
+    "documents": "Documents",
+    "partners": "Partenaires",
+    "press": "Presse",
+    "contact": "Contact",
+    "joinCTA": "Rejoindre l'ONSPEA",
+    "mailAccess": "Accès messagerie"
+  },
+  "hero": {
+    "tag": "Organisation nationale syndicale",
+    "title": "Au service de l'entreprise algérienne, au cœur du dialogue économique national",
+    "subtitle": "Représenter, fédérer et accompagner les patrons et entrepreneurs algériens.",
+    "cta1": "Découvrir l'organisation",
+    "cta2": "Adhérer à l'ONSPEA"
+  },
+  "about": {
+    "sectionTitle": "Qui sommes-nous ?",
+    "sectionSub": "L'ONSPEA en quelques mots",
+    "readMore": "En savoir plus",
+    "history": "Notre histoire",
+    "missions": "Missions & Valeurs",
+    "bureau": "Bureau national",
+    "statuts": "Statuts & Règlement"
+  },
+  "missions": {
+    "title": "Nos missions",
+    "sub": "Ce que l'ONSPEA fait concrètement pour ses membres",
+    "m1title": "Représentation institutionnelle",
+    "m1desc": "Défense des intérêts patronaux auprès des ministères, du Parlement et des institutions internationales.",
+    "m2title": "Assistance juridique",
+    "m2desc": "Consultations sur le droit du travail, fiscalité, droit des sociétés et investissement.",
+    "m3title": "Formation professionnelle",
+    "m3desc": "Séminaires, ateliers et journées d'études sur les thèmes économiques d'actualité.",
+    "m4title": "Réseau d'affaires national",
+    "m4desc": "Mise en relation inter-membres et rencontres B2B par wilaya et par secteur."
+  },
+  "news": {
+    "title": "Dernières actualités",
+    "sub": "Communiqués officiels et vie de l'organisation",
+    "viewAll": "Voir toutes les actualités",
+    "categories": {
+      "communique": "Communiqué officiel",
+      "vie-organisation": "Vie de l'organisation",
+      "actualite-economique": "Actualité économique",
+      "partenariats": "Partenariats & Conventions",
+      "revue-presse": "Revue de presse",
+      "declarations": "Déclarations patronales"
+    },
+    "all": "Toutes catégories",
+    "readMore": "Lire la suite"
+  },
+  "events": {
+    "title": "Prochains événements",
+    "sub": "Agenda institutionnel de l'ONSPEA",
+    "viewAll": "Voir tous les événements",
+    "upcoming": "À venir",
+    "past": "Passés",
+    "location": "Lieu",
+    "program": "Télécharger le programme",
+    "register": "S'inscrire"
+  },
+  "directory": {
+    "title": "Annuaire des entreprises",
+    "sub": "Réseau des membres ONSPEA — 48 wilayas",
+    "searchPlaceholder": "Rechercher une entreprise...",
+    "filterSector": "Secteur d'activité",
+    "filterWilaya": "Wilaya",
+    "filterSize": "Taille d'entreprise",
+    "allSectors": "Tous les secteurs",
+    "allWilayas": "Toutes les wilayas",
+    "allSizes": "Toutes tailles",
+    "viewFull": "Accéder à l'annuaire complet",
+    "since": "Membre depuis",
+    "noResults": "Aucune entreprise trouvée avec ces critères.",
+    "results": "entreprise(s) trouvée(s)"
+  },
+  "membership": {
+    "title": "Rejoindre l'ONSPEA",
+    "sub": "Défendez vos intérêts — représentation nationale, 48 wilayas",
+    "benefit1": "Représentation auprès des pouvoirs publics",
+    "benefit2": "Réseau d'affaires national étendu",
+    "benefit3": "Assistance juridique et conseil",
+    "formTitle": "Demande d'adhésion",
+    "downloadForm": "Télécharger le formulaire papier (PDF)",
+    "fields": {
+      "companyName": "Raison sociale",
+      "nif": "NIF / NIS",
+      "sector": "Secteur d'activité",
+      "wilaya": "Wilaya",
+      "contactName": "Nom du représentant légal",
+      "email": "Adresse e-mail",
+      "phone": "Téléphone",
+      "message": "Message (optionnel)",
+      "submit": "Envoyer la demande d'adhésion",
+      "sending": "Envoi en cours...",
+      "success": "Votre demande a été envoyée. Nous vous contacterons dans les plus brefs délais.",
+      "error": "Une erreur s'est produite. Veuillez réessayer ou nous contacter directement."
+    }
+  },
+  "documents": {
+    "title": "Documents & Téléchargements",
+    "sub": "Bibliothèque de ressources officielles de l'ONSPEA",
+    "download": "Télécharger",
+    "categories": {
+      "fondateurs": "Textes fondateurs",
+      "adhesion": "Formulaires d'adhésion",
+      "rapports": "Rapports d'activité",
+      "circulaires": "Circulaires",
+      "publications": "Publications économiques",
+      "comptes-rendus": "Comptes-rendus"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "sub": "Bureau national ONSPEA — Alger",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "address": "Adresse",
+    "social": "Réseaux sociaux",
+    "formTitle": "Envoyez-nous un message",
+    "fields": {
+      "name": "Nom complet",
+      "organization": "Organisation / Entreprise",
+      "email": "Adresse e-mail",
+      "subject": "Objet",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours...",
+      "success": "Votre message a été envoyé avec succès.",
+      "error": "Erreur lors de l'envoi. Veuillez réessayer."
+    }
+  },
+  "mail": {
+    "buttonLabel": "Accès messagerie ONSPEA",
+    "buttonSub": "@onspea-centre.com"
+  },
+  "footer": {
+    "tagline": "Organisation Nationale Syndicale du Patronat et des Entrepreneurs Algériens — au service de l'entreprise depuis notre création.",
+    "quickLinks": "Liens rapides",
+    "contactInfo": "Contact",
+    "followUs": "Réseaux sociaux",
+    "rights": "Tous droits réservés",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "address": "Alger, Algérie",
+    "phone": "0661 247 676",
+    "email": "contact@onspea-centre.com"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "backToList": "Retour à la liste",
+    "publishedOn": "Publié le",
+    "loading": "Chargement...",
+    "comingSoon": "Prochainement"
+  }
+}

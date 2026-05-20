@@ -1,0 +1,165 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "news": "News",
+    "events": "Events",
+    "membership": "Membership",
+    "directory": "Directory",
+    "media": "Media",
+    "documents": "Documents",
+    "partners": "Partners",
+    "press": "Press",
+    "contact": "Contact",
+    "joinCTA": "Join ONSPEA",
+    "mailAccess": "Webmail Access"
+  },
+  "hero": {
+    "tag": "National Syndical Organisation",
+    "title": "Serving Algerian business, at the heart of national economic dialogue",
+    "subtitle": "Representing, uniting, and supporting Algerian employers and entrepreneurs.",
+    "cta1": "Discover the organization",
+    "cta2": "Join ONSPEA"
+  },
+  "about": {
+    "sectionTitle": "Who are we?",
+    "sectionSub": "ONSPEA in a few words",
+    "readMore": "Read more",
+    "history": "Our History",
+    "missions": "Missions & Values",
+    "bureau": "National Bureau",
+    "statuts": "Statutes & Regulations"
+  },
+  "missions": {
+    "title": "Our Missions",
+    "sub": "What ONSPEA concretely does for its members",
+    "m1title": "Institutional Representation",
+    "m1desc": "Defense of employer interests with ministries, Parliament, and international institutions.",
+    "m2title": "Legal Assistance",
+    "m2desc": "Consultations on labor law, taxation, corporate law, and investment.",
+    "m3title": "Professional Training",
+    "m3desc": "Seminars, workshops, and study days on current economic themes.",
+    "m4title": "National Business Network",
+    "m4desc": "Inter-member networking and B2B meetings by wilaya and sector."
+  },
+  "news": {
+    "title": "Latest News",
+    "sub": "Official communiqués and organizational life",
+    "viewAll": "View all news",
+    "categories": {
+      "communique": "Official Communiqué",
+      "vie-organisation": "Organizational Life",
+      "actualite-economique": "Economic News",
+      "partenariats": "Partnerships & Conventions",
+      "revue-presse": "Press Review",
+      "declarations": "Employer Declarations"
+    },
+    "all": "All categories",
+    "readMore": "Read more"
+  },
+  "events": {
+    "title": "Upcoming Events",
+    "sub": "ONSPEA Institutional Agenda",
+    "viewAll": "View all events",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "location": "Location",
+    "program": "Download program",
+    "register": "Register"
+  },
+  "directory": {
+    "title": "Company Directory",
+    "sub": "ONSPEA Member Network — 48 Wilayas",
+    "searchPlaceholder": "Search for a company...",
+    "filterSector": "Sector of activity",
+    "filterWilaya": "Wilaya",
+    "filterSize": "Company size",
+    "allSectors": "All sectors",
+    "allWilayas": "All wilayas",
+    "allSizes": "All sizes",
+    "viewFull": "Access full directory",
+    "since": "Member since",
+    "noResults": "No companies found with these criteria.",
+    "results": "company(ies) found"
+  },
+  "membership": {
+    "title": "Join ONSPEA",
+    "sub": "Defend your interests — national representation, 48 wilayas",
+    "benefit1": "Representation to public authorities",
+    "benefit2": "Extended national business network",
+    "benefit3": "Legal assistance and advice",
+    "formTitle": "Membership Request",
+    "downloadForm": "Download paper form (PDF)",
+    "fields": {
+      "companyName": "Company Name",
+      "nif": "NIF / NIS",
+      "sector": "Sector of activity",
+      "wilaya": "Wilaya",
+      "contactName": "Legal representative name",
+      "email": "Email address",
+      "phone": "Phone",
+      "message": "Message (optional)",
+      "submit": "Send membership request",
+      "sending": "Sending...",
+      "success": "Your request has been sent. We will contact you as soon as possible.",
+      "error": "An error occurred. Please try again or contact us directly."
+    }
+  },
+  "documents": {
+    "title": "Documents & Downloads",
+    "sub": "ONSPEA Official Resource Library",
+    "download": "Download",
+    "categories": {
+      "fondateurs": "Founding Texts",
+      "adhesion": "Membership Forms",
+      "rapports": "Activity Reports",
+      "circulaires": "Circulars",
+      "publications": "Economic Publications",
+      "comptes-rendus": "Meeting Minutes"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "sub": "ONSPEA National Bureau — Algiers",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "social": "Social Networks",
+    "formTitle": "Send us a message",
+    "fields": {
+      "name": "Full Name",
+      "organization": "Organization / Company",
+      "email": "Email address",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully.",
+      "error": "Error during sending. Please try again."
+    }
+  },
+  "mail": {
+    "buttonLabel": "ONSPEA Webmail Access",
+    "buttonSub": "@onspea-centre.com"
+  },
+  "footer": {
+    "tagline": "National Syndical Organisation of Algerian Employers and Entrepreneurs — serving business since our creation.",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact",
+    "followUs": "Social Networks",
+    "rights": "All rights reserved",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "address": "Algiers, Algeria",
+    "phone": "0661 247 676",
+    "email": "contact@onspea-centre.com"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "backToList": "Back to list",
+    "publishedOn": "Published on",
+    "loading": "Loading...",
+    "comingSoon": "Coming soon"
+  }
+}

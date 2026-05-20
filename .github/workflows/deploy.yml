@@ -1,0 +1,39 @@
+name: Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+          
+      - name: Install dependencies
+        run: pnpm install
+        
+      - name: Build project
+        run: pnpm build
+        env:
+          NEXT_PUBLIC_WEB3FORMS_KEY: ${{ secrets.WEB3FORMS_ACCESS_KEY }}
+          
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: onspea
+          directory: out
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
