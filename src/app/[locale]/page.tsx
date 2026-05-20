@@ -1,5 +1,5 @@
 import React from 'react';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import HeroBanner from '@/components/home/HeroBanner';
 import StatsBar from '@/components/home/StatsBar';
 import MissionsSection from '@/components/home/MissionsSection';
@@ -15,7 +15,7 @@ import { Link } from '@/i18n/navigation';
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const t = await getTranslations('about');
 
   return (

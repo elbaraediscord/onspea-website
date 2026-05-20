@@ -3,11 +3,11 @@ import SectionTitle from '@/components/ui/SectionTitle';
 import Card from '@/components/ui/Card';
 import { Phone, Mail, MapPin, Facebook, Instagram, Youtube } from 'lucide-react';
 import Button from '@/components/ui/Button';
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 export default async function ContactPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
   const t = await getTranslations('contact');
   const ft = await getTranslations('footer');
 
