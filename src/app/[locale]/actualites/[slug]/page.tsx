@@ -6,12 +6,18 @@ import { formatDate } from '@/lib/utils';
 import { Calendar, ArrowLeft } from 'lucide-react';
 import { Link } from '@/i18n/navigation';
 
-export async function generateStaticParams({ params }: { params: { locale: string } }) {
-  const { locale } = params;
-  const articles = await getMDXContent(locale, 'actualites');
-  return articles.map((article: any) => ({
-    slug: article.slug,
-  }));
+export async function generateStaticParams() {
+  const locales = ['fr', 'ar', 'en'];
+  const params = [];
+  
+  for (const locale of locales) {
+    const articles = await getMDXContent(locale, 'actualites');
+    for (const article of articles) {
+      params.push({ locale, slug: article.slug });
+    }
+  }
+  
+  return params;
 }
 
 export default async function ArticlePage({ params }: { params: Promise<{ locale: string, slug: string }> }) {
