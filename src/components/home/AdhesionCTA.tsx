@@ -6,6 +6,7 @@ import { Link } from '@/i18n/navigation';
 
 const AdhesionCTA = () => {
   const t = useTranslations('membership');
+  const comT = useTranslations('common');
 
   const benefits = [
     t('benefit1'),
@@ -33,7 +34,7 @@ const AdhesionCTA = () => {
           
           <div className="lg:w-1/3 flex flex-col sm:flex-row lg:flex-col gap-4 w-full">
             <div className="w-full bg-white/20 text-white py-3 px-6 rounded-md text-center font-bold border border-white/30">
-              {t('availableSoon') || 'Bientôt disponible'}
+              {comT('availableSoon')}
             </div>
             <Link href="/adhesion" className="w-full">
               <Button variant="primary" className="w-full font-bold border-2 border-navy">

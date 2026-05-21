@@ -7,6 +7,7 @@ import { FileText, Download, ShieldCheck } from 'lucide-react';
 export default async function StatutsPage() {
   const t = await getTranslations('about');
   const dt = await getTranslations('documents');
+  const mt = await getTranslations('missions');
 
   return (
     <div className="py-20">
