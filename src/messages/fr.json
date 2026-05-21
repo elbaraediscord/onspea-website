@@ -182,6 +182,12 @@
     "backToList": "Retour à la liste",
     "publishedOn": "Publié le",
     "loading": "Chargement...",
-    "comingSoon": "Prochainement"
+    "comingSoon": "Prochainement",
+    "notFound": {
+      "title": "Page non trouvée",
+      "description": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée. Veuillez vérifier l'URL ou retourner à l'accueil.",
+      "home": "Accueil",
+      "back": "Retourner"
+    }
   }
 }

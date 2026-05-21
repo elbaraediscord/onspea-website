@@ -29,23 +29,18 @@ export default function NotFound() {
           </div>
           
           <h1 className="text-4xl md:text-5xl font-bold text-navy mb-6">
-            {isRTL ? 'الصفحة غير موجودة' : (locale === 'en' ? 'Page Not Found' : 'Page non trouvée')}
+            {t('notFound.title')}
           </h1>
           
           <p className="text-slate text-xl mb-12 leading-relaxed max-w-xl mx-auto">
-            {isRTL 
-              ? 'عذرًا، الصفحة التي تبحث عنها غير موجودة أو تم نقلها. يرجى التحقق من الرابط أو العودة إلى الصفحة الرئيسية.' 
-              : (locale === 'en' 
-                ? "Sorry, the page you are looking for doesn't exist or has been moved. Please check the URL or return to the homepage." 
-                : "Désolé, la page que vous recherchez n'existe pas ou a été déplacée. Veuillez vérifier l'URL ou retourner à l'accueil.")
-            }
+            {t('notFound.description')}
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/">
               <Button variant="primary" size="lg" className="min-w-[200px] shadow-lg shadow-navy/20">
                 <Home className={`w-5 h-5 ${isRTL ? 'ml-2' : 'mr-2'}`} />
-                {isRTL ? 'الرئيسية' : (locale === 'en' ? 'Home' : 'Accueil')}
+                {t('notFound.home')}
               </Button>
             </Link>
             
@@ -54,7 +49,7 @@ export default function NotFound() {
               className="flex items-center text-navy font-bold hover:text-gold transition-colors px-6 py-3"
             >
               <ArrowLeft className={`w-5 h-5 ${isRTL ? 'ml-2 rotate-180' : 'mr-2'}`} />
-              {isRTL ? 'العودة للخلف' : (locale === 'en' ? 'Go Back' : 'Retourner')}
+              {t('notFound.back')}
             </button>
           </div>
 

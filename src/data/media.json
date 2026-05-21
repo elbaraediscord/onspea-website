@@ -4,20 +4,20 @@
     "title": "Assemblée Générale 2026",
     "titleAr": "الجمعية العامة 2026",
     "date": "2026-05-01",
-    "images": ["ag1.jpg", "ag2.jpg", "ag3.jpg", "ag4.jpg"]
+    "images": ["/images/media/ag-2026.jpg"]
   },
   {
     "id": "2",
     "title": "Forum Économique Oran",
     "titleAr": "المنتدى الاقتصادي وهران",
     "date": "2026-04-15",
-    "images": ["forum1.jpg", "forum2.jpg", "forum3.jpg", "forum4.jpg"]
+    "images": ["/images/media/forum-oran.jpg"]
   },
   {
     "id": "3",
     "title": "Bureau National Alger",
     "titleAr": "المكتب الوطني الجزائر",
     "date": "2026-03-10",
-    "images": ["bureau1.jpg", "bureau2.jpg", "bureau3.jpg", "bureau4.jpg"]
+    "images": ["/images/media/bureau-alger.jpg"]
   }
 ]
