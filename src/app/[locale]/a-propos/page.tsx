@@ -5,7 +5,9 @@ import Card from '@/components/ui/Card';
 import { Link } from '@/i18n/navigation';
 import { History, Target, Users, FileText, ArrowRight } from 'lucide-react';
 
-export default async function AboutPage() {
+export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('about');
 
   const subPages = [

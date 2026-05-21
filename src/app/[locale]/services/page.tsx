@@ -4,7 +4,9 @@ import SectionTitle from '@/components/ui/SectionTitle';
 import Card from '@/components/ui/Card';
 import { Building2, Scale, GraduationCap, Network, BarChart3, Globe } from 'lucide-react';
 
-export default async function ServicesPage() {
+export default async function ServicesPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('nav');
   const mt = await getTranslations('missions');
 

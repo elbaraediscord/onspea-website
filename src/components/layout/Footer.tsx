@@ -39,7 +39,7 @@ const Footer = () => {
 
           {/* Col 3: Members */}
           <div>
-            <h3 className="text-lg font-bold mb-6 text-gold">Espace Membres</h3>
+            <h3 className="text-lg font-bold mb-6 text-gold">{t('membersArea')}</h3>
             <ul className="space-y-3 text-sm text-gray-400">
               <li><Link href="/adhesion" className="hover:text-gold transition-colors">{nt('membership')}</Link></li>
               <li><Link href="/annuaire" className="hover:text-gold transition-colors">{nt('directory')}</Link></li>
@@ -76,9 +76,6 @@ const Footer = () => {
             <div className="text-xs text-gray-500">
               © ONSPEA 2026 · {t('rights')}
             </div>
-            <span className="px-2 py-0.5 bg-white/5 text-[10px] text-gold rounded uppercase font-bold border border-white/10">
-              Locale: {locale}
-            </span>
           </div>
           <div className="flex space-x-6 rtl:space-x-reverse text-xs text-gray-500">
             <Link href="/mentions-legales" className="hover:text-gold transition-colors">{t('legal')}</Link>

@@ -13,7 +13,8 @@
     "press": "Press",
     "contact": "Contact",
     "joinCTA": "Join ONSPEA",
-    "mailAccess": "Webmail Access"
+    "mailAccess": "Webmail Access",
+    "language": "Language"
   },
   "press": {
     "sub": "Space dedicated to journalists and media professionals.",
@@ -216,6 +217,7 @@
     "contactInfo": "Contact",
     "followUs": "Social Networks",
     "rights": "All rights reserved",
+    "membersArea": "Members Area",
     "legal": "Legal Notice",
     "privacy": "Privacy Policy",
     "address": "Algiers, Algeria",

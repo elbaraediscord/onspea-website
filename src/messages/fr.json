@@ -13,7 +13,8 @@
     "press": "Presse",
     "contact": "Contact",
     "joinCTA": "Rejoindre l'ONSPEA",
-    "mailAccess": "Accès messagerie"
+    "mailAccess": "Accès messagerie",
+    "language": "Langue"
   },
   "press": {
     "sub": "Espace dédié aux journalistes et professionnels des médias.",
@@ -216,6 +217,7 @@
     "contactInfo": "Contact",
     "followUs": "Réseaux sociaux",
     "rights": "Tous droits réservés",
+    "membersArea": "Espace Membres",
     "legal": "Mentions légales",
     "privacy": "Politique de confidentialité",
     "address": "Alger, Algérie",

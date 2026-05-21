@@ -121,7 +121,7 @@ const Navbar = () => {
           </nav>
           <div className="pt-6 border-t border-gray-100 flex flex-col space-y-4">
             <div className="flex justify-between items-center">
-              <span className="text-sm font-medium text-navy">Langue</span>
+              <span className="text-sm font-medium text-navy">{t('language')}</span>
               <LanguageSwitcher />
             </div>
             <MailButton className="w-full" />
