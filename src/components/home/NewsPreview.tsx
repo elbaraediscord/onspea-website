@@ -15,7 +15,7 @@ const NewsPreview = () => {
       date: '2026-05-15',
       category: t('news1.category'),
       excerpt: t('news1.excerpt'),
-      coverImage: '/images/actualites/reunion-mai-2026.jpg'
+      coverImage: '/images/actualites/onspea_meeting_1.webp'
     },
     {
       slug: 'forum-economique-oran-2026',
@@ -23,7 +23,7 @@ const NewsPreview = () => {
       date: '2026-04-20',
       category: t('news2.category'),
       excerpt: t('news2.excerpt'),
-      coverImage: '/images/actualites/forum-oran.jpg'
+      coverImage: '/images/actualites/onspea_meeting_2.webp'
     },
     {
       slug: 'convention-partenariat-banque',
@@ -31,7 +31,7 @@ const NewsPreview = () => {
       date: '2026-03-10',
       category: t('news3.category'),
       excerpt: t('news3.excerpt'),
-      coverImage: '/images/actualites/convention.jpg'
+      coverImage: '/images/actualites/onspea_meeting_3.webp'
     }
   ];
 

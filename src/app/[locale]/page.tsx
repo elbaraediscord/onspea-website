@@ -51,7 +51,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
                 <div 
                   className="rounded-2xl overflow-hidden shadow-2xl aspect-video"
                   style={{
-                    backgroundImage: 'url("https://images.unsplash.com/photo-1577416414970-f240f3c95b3d?q=80&w=2070&auto=format&fit=crop")',
+                    backgroundImage: 'url("/images/actualites/onspea_meeting_1.webp")',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                   }}
