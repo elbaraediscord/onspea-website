@@ -44,13 +44,13 @@ export default function NotFound() {
               </Button>
             </Link>
             
-            <button 
-              onClick={() => window.history.back()}
+            <Link 
+              href="/"
               className="flex items-center text-navy font-bold hover:text-gold transition-colors px-6 py-3"
             >
               <ArrowLeft className={`w-5 h-5 ${isRTL ? 'ml-2 rotate-180' : 'mr-2'}`} />
               {t('notFound.back')}
-            </button>
+            </Link>
           </div>
 
           {/* Institutional Note */}
