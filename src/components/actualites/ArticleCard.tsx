@@ -23,7 +23,7 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
   return (
     <Card className="flex flex-col h-full p-0 overflow-hidden group">
       <div className="relative h-48 bg-navy-light overflow-hidden">
-        {/* <img src={article.coverImage} alt={article.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" /> */}
+        <img src={article.coverImage} alt={article.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
         <div className="absolute top-4 left-4 rtl:left-auto rtl:right-4 bg-gold text-white text-xs font-bold px-3 py-1 rounded-full z-10">
           {t(`categories.${article.category}`)}
         </div>

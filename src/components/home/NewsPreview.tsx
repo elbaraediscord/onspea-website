@@ -13,7 +13,7 @@ const NewsPreview = () => {
       slug: 'reunion-bureau-national-mai-2026',
       title: t('news1.title'),
       date: '2026-05-15',
-      category: t('news1.category'),
+      category: 'communique',
       excerpt: t('news1.excerpt'),
       coverImage: '/images/actualites/onspea_meeting_1.webp'
     },
@@ -21,7 +21,7 @@ const NewsPreview = () => {
       slug: 'forum-economique-oran-2026',
       title: t('news2.title'),
       date: '2026-04-20',
-      category: t('news2.category'),
+      category: 'actualite-economique',
       excerpt: t('news2.excerpt'),
       coverImage: '/images/actualites/onspea_meeting_2.webp'
     },
@@ -29,7 +29,7 @@ const NewsPreview = () => {
       slug: 'convention-partenariat-banque',
       title: t('news3.title'),
       date: '2026-03-10',
-      category: t('news3.category'),
+      category: 'partenariats',
       excerpt: t('news3.excerpt'),
       coverImage: '/images/actualites/onspea_meeting_3.webp'
     }

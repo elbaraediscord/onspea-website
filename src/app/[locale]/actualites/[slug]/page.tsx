@@ -28,7 +28,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
           className="inline-flex items-center text-navy hover:text-gold transition-colors mb-8 font-bold"
         >
           <ArrowLeft className="w-4 h-4 mr-2 rtl:ml-2 rtl:rotate-180" />
-          Retour aux actualités
+          {locale === 'ar' ? 'العودة إلى الأخبار' : (locale === 'en' ? 'Back to news' : 'Retour aux actualités')}
         </Link>
 
         <div className="mb-12">
@@ -45,7 +45,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ locale
         </div>
 
         <div className="aspect-video bg-navy-light rounded-2xl mb-12 overflow-hidden">
-          {/* <img src={article.coverImage} alt={article.title} className="w-full h-full object-cover" /> */}
+          <img src={article.coverImage} alt={article.title} className="w-full h-full object-cover" />
         </div>
 
         <div className="prose prose-lg prose-navy max-w-none text-slate leading-relaxed">
