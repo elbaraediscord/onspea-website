@@ -4,7 +4,9 @@ import SectionTitle from '@/components/ui/SectionTitle';
 import Button from '@/components/ui/Button';
 import { FileText, Download, ShieldCheck } from 'lucide-react';
 
-export default async function StatutsPage() {
+export default async function StatutsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('about');
   const dt = await getTranslations('documents');
   const mt = await getTranslations('missions');

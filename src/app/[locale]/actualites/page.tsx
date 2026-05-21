@@ -6,7 +6,9 @@ import { getMDXContent } from '@/lib/mdx';
 
 export default async function NewsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('news');
+  const mt = await getTranslations('missions');
   const articles = await getMDXContent(locale, 'actualites');
 
   return (
@@ -26,7 +28,7 @@ export default async function NewsPage({ params }: { params: Promise<{ locale: s
         
         {articles.length === 0 && (
           <div className="text-center py-20">
-            <p className="text-slate text-lg">Aucune actualité pour le moment.</p>
+            <p className="text-slate text-lg">{mt('noNews')}</p>
           </div>
         )}
       </div>

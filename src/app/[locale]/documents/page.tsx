@@ -1,15 +1,15 @@
 import React from 'react';
-import { getLocale } from 'next-intl/server';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations, setRequestLocale } from 'next-intl/server';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Card from '@/components/ui/Card';
 import { FileText, Download } from 'lucide-react';
 import documentsData from '@/data/documents.json';
 import { Document } from '@/types';
 
-export default async function DocumentsPage() {
+export default async function DocumentsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('documents');
-  const locale = await getLocale();
 
   const categories = [
     'fondateurs',

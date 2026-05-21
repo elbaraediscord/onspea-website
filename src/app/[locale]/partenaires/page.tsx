@@ -1,17 +1,20 @@
 import React from 'react';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Card from '@/components/ui/Card';
 import partnersData from '@/data/partenaires.json';
 
-export default async function PartnersPage() {
+export default async function PartnersPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('nav');
+  const mt = await getTranslations('missions');
 
   const categories = [
-    { id: 'institutionnel', label: 'Partenaires Institutionnels' },
-    { id: 'economique', label: 'Partenaires Économiques' },
-    { id: 'international', label: 'Partenaires Internationaux' },
-    { id: 'media', label: 'Partenaires Médias' }
+    { id: 'institutionnel', label: mt('partnersCat1') },
+    { id: 'economique', label: mt('partnersCat2') },
+    { id: 'international', label: mt('partnersCat3') },
+    { id: 'media', label: mt('partnersCat4') }
   ];
 
   const getPartnersByCategory = (category: string) => {
@@ -23,7 +26,7 @@ export default async function PartnersPage() {
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         <SectionTitle
           title={t('partners')}
-          subtitle="L'ONSPEA collabore avec des institutions nationales et internationales pour soutenir le développement des entreprises algériennes."
+          subtitle={mt('partnersSub')}
           centered
         />
         

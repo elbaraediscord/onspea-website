@@ -9,7 +9,9 @@ import { formatDate } from '@/lib/utils';
 
 export default async function EventsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('events');
+  const mt = await getTranslations('missions');
   const events = await getMDXContent(locale, 'evenements');
 
   return (
@@ -56,6 +58,11 @@ export default async function EventsPage({ params }: { params: Promise<{ locale:
             </Card>
           ))}
         </div>
+        {events.length === 0 && (
+          <div className="text-center py-20">
+            <p className="text-slate text-lg">{mt('noEvents')}</p>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -89,7 +89,17 @@
       "Commitment to the promotion of the national economy."
     ],
     "statutsDocTitle": "Official ONSPEA Statutes",
-    "statutsDocSize": "PDF Document — 1.2 MB"
+    "statutsDocSize": "PDF Document — 1.2 MB",
+    "bureauSub": "The members who lead and represent ONSPEA at the national level.",
+    "partnersSub": "Our institutional and economic partners.",
+    "partnersCat1": "Institutional Partners",
+    "partnersCat2": "Economic Partners",
+    "partnersCat3": "International Partners",
+    "partnersCat4": "Media Partners",
+    "mediaSub": "Discover images of our key events and activities.",
+    "mediaPhotos": "Photos",
+    "noNews": "No news at the moment.",
+    "noEvents": "No events at the moment."
   },
   "news": {
     "title": "Latest News",
@@ -235,7 +245,8 @@
       "title": "Page Not Found",
       "description": "Sorry, the page you are looking for doesn't exist or has been moved. Please check the URL or return to the homepage.",
       "home": "Home",
-      "back": "Go Back"
+      "back": "Go Back",
+      "footerNote": "National Syndical Organisation of Algerian Employers and Entrepreneurs — serving business since our creation."
     }
-  }
+  },
 }

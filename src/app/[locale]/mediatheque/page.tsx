@@ -1,22 +1,23 @@
 import React from 'react';
-import { getLocale } from 'next-intl/server';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations, setRequestLocale } from 'next-intl/server';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Card from '@/components/ui/Card';
 import { Camera, Calendar } from 'lucide-react';
 import mediaData from '@/data/media.json';
 import { formatDate } from '@/lib/utils';
 
-export default async function MediaPage() {
+export default async function MediaPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('nav');
-  const locale = await getLocale();
+  const mt = await getTranslations('missions');
 
   return (
     <div className="py-20">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         <SectionTitle
           title={t('media')}
-          subtitle="Revivez les événements et les moments forts de l'ONSPEA à travers notre galerie photo."
+          subtitle={mt('mediaSub')}
           centered
         />
         
@@ -28,7 +29,7 @@ export default async function MediaPage() {
                 <div className="absolute inset-0 bg-navy/20 group-hover:bg-navy/0 transition-colors duration-300" />
                 <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm text-navy px-3 py-1 rounded-full text-xs font-bold flex items-center">
                   <Camera className="w-3 h-3 mr-2 rtl:ml-2" />
-                  {album.images.length} Photos
+                  {album.images.length} {mt('mediaPhotos')}
                 </div>
               </div>
               

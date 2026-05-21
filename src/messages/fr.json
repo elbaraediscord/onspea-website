@@ -89,7 +89,17 @@
       "Engagement pour la promotion de l'économie nationale."
     ],
     "statutsDocTitle": "Statuts Officiels ONSPEA",
-    "statutsDocSize": "Document PDF — 1.2 Mo"
+    "statutsDocSize": "Document PDF — 1.2 Mo",
+    "bureauSub": "Les membres qui dirigent et représentent l'ONSPEA au niveau national.",
+    "partnersSub": "Nos partenaires institutionnels et économiques.",
+    "partnersCat1": "Partenaires Institutionnels",
+    "partnersCat2": "Partenaires Économiques",
+    "partnersCat3": "Partenaires Internationaux",
+    "partnersCat4": "Partenaires Médias",
+    "mediaSub": "Découvrez les images de nos événements et activités marquantes.",
+    "mediaPhotos": "Photos",
+    "noNews": "Aucune actualité pour le moment.",
+    "noEvents": "Aucun événement pour le moment."
   },
   "news": {
     "title": "Dernières actualités",
@@ -235,7 +245,8 @@
       "title": "Page non trouvée",
       "description": "Désolé, la page que vous recherchez n'existe pas ou a été déplacée. Veuillez vérifier l'URL ou retourner à l'accueil.",
       "home": "Accueil",
-      "back": "Retourner"
+      "back": "Retourner",
+      "footerNote": "Organisation Nationale Syndicale du Patronat et des Entrepreneurs Algériens — au service de l'entreprise depuis notre création."
     }
-  }
+  },
 }

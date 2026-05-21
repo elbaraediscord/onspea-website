@@ -22,8 +22,10 @@ export default function NotFound() {
           <div className="relative inline-block mb-8">
             <span className="text-[12rem] font-black text-navy/5 leading-none select-none">404</span>
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="bg-white p-6 rounded-2xl shadow-xl border border-slate/10">
-                <Search className="w-16 h-16 text-gold animate-pulse" />
+              <div className="bg-white p-8 rounded-3xl shadow-2xl border border-gold/20 transform -rotate-3 hover:rotate-0 transition-transform duration-500">
+                <div className="w-20 h-20 bg-navy rounded-2xl flex items-center justify-center shadow-lg">
+                  <Search className="w-10 h-10 text-gold animate-pulse" />
+                </div>
               </div>
             </div>
           </div>
@@ -54,10 +56,13 @@ export default function NotFound() {
           </div>
 
           {/* Institutional Note */}
-          <div className="mt-20 pt-8 border-t border-slate/10">
-            <p className="text-slate-light text-sm italic">
-              ONSPEA — Organisation Nationale Syndicale des Patrons et Entrepreneurs Algériens
-            </p>
+          <div className="mt-20 pt-12 border-t border-slate/10">
+            <div className="flex flex-col items-center gap-4">
+              <div className="text-2xl font-bold text-navy/20">ONSPEA</div>
+              <p className="text-slate-light text-sm italic max-w-md mx-auto">
+                {t('notFound.footerNote')}
+              </p>
+            </div>
           </div>
         </div>
       </div>

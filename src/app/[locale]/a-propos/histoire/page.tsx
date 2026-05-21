@@ -3,7 +3,9 @@ import { getTranslations } from 'next-intl/server';
 import SectionTitle from '@/components/ui/SectionTitle';
 import Image from 'next/image';
 
-export default async function HistoirePage() {
+export default async function HistoirePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('about');
   const navT = await getTranslations('nav');
 

@@ -4,16 +4,18 @@ import SectionTitle from '@/components/ui/SectionTitle';
 import Card from '@/components/ui/Card';
 import bureauData from '@/data/bureau-national.json';
 import { User } from 'lucide-react';
-export default async function BureauPage() {
+export default async function BureauPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('about');
-  const locale = await getLocale();
+  const mt = await getTranslations('missions');
 
   return (
     <div className="py-20">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         <SectionTitle
           title={t('bureau')}
-          subtitle="Les membres qui dirigent et représentent l'ONSPEA au niveau national."
+          subtitle={mt('bureauSub')}
           centered
         />
         

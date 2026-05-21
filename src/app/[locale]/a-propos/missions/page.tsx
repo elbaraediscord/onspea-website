@@ -4,7 +4,9 @@ import SectionTitle from '@/components/ui/SectionTitle';
 import Card from '@/components/ui/Card';
 import { Target, Shield, Users, Lightbulb } from 'lucide-react';
 
-export default async function MissionsPage() {
+export default async function MissionsPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations('about');
   const mt = await getTranslations('missions');
 
