@@ -25,9 +25,11 @@ export default async function EventsPage({ params }: { params: Promise<{ locale:
           {events.map((event: any) => (
             <Card key={event.slug} className="flex flex-col md:flex-row p-0 overflow-hidden group">
               <div className="md:w-1/3 bg-navy-light relative h-48 md:h-auto">
-                <div className="absolute inset-0 flex items-center justify-center text-white font-bold">
-                  Event Image
-                </div>
+                <img 
+                  src={event.coverImage} 
+                  alt={event.title} 
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                />
               </div>
               <div className="md:w-2/3 p-8">
                 <div className="inline-block bg-gold/10 text-gold px-3 py-1 rounded-full text-xs font-bold mb-4">
