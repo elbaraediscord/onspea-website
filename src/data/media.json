@@ -4,20 +4,20 @@
     "title": "Assemblée Générale 2026",
     "titleAr": "الجمعية العامة 2026",
     "date": "2026-05-01",
-    "images": ["/images/media/ag-2026.jpg"]
+    "images": ["/images/mediatheque/meeting_1.jpg", "/images/mediatheque/meeting_2.jpg"]
   },
   {
     "id": "2",
-    "title": "Forum Économique Oran",
-    "titleAr": "المنتدى الاقتصادي وهران",
+    "title": "Forum Économique & Networking",
+    "titleAr": "المنتدى الاقتصادي والتواصل",
     "date": "2026-04-15",
-    "images": ["/images/media/forum-oran.jpg"]
+    "images": ["/images/mediatheque/networking_1.jpg", "/images/mediatheque/conference_1.jpg"]
   },
   {
     "id": "3",
-    "title": "Bureau National Alger",
-    "titleAr": "المكتب الوطني الجزائر",
+    "title": "Sommet Tech & Innovation",
+    "titleAr": "قمة التكنولوجيا والابتكار",
     "date": "2026-03-10",
-    "images": ["/images/media/bureau-alger.jpg"]
+    "images": ["/images/mediatheque/tech_summit.jpg", "/images/mediatheque/algiers_skyline.jpg"]
   }
 ]
