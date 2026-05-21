@@ -54,12 +54,9 @@ export default async function StatutsPage() {
                   <p className="text-sm text-slate">Document PDF — 1.2 Mo</p>
                 </div>
               </div>
-              <a href="/documents/statuts-onspea.pdf" target="_blank" rel="noopener noreferrer">
-                <Button variant="primary" className="whitespace-nowrap">
-                  <Download className="w-4 h-4 mr-2" />
-                  {dt('download')}
-                </Button>
-              </a>
+              <div className="bg-gold/10 text-gold px-4 py-2 rounded-lg font-bold text-sm">
+                {dt('availableSoon') || 'Bientôt disponible'}
+              </div>
             </div>
           </div>
         </div>

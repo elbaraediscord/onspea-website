@@ -59,13 +59,9 @@ export default async function DocumentsPage() {
                           <span className="text-xs text-slate-light">{doc.size} · {doc.date}</span>
                         </div>
                       </div>
-                      <a
-                        href={`/documents/${doc.filename}`}
-                        download
-                        className="text-navy hover:text-gold transition-colors p-2"
-                      >
-                        <Download className="w-5 h-5" />
-                      </a>
+                      <div className="text-xs font-bold text-gold bg-gold/10 px-2 py-1 rounded">
+                        {t('availableSoon') || 'Soon'}
+                      </div>
                     </Card>
                   ))}
                 </div>

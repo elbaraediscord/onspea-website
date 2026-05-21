@@ -32,11 +32,9 @@ const AdhesionCTA = () => {
           </div>
           
           <div className="lg:w-1/3 flex flex-col sm:flex-row lg:flex-col gap-4 w-full">
-            <Link href="/documents/formulaire-adhesion.pdf" target="_blank" className="w-full">
-              <Button variant="white" className="w-full font-bold">
-                {t('downloadForm')}
-              </Button>
-            </Link>
+            <div className="w-full bg-white/20 text-white py-3 px-6 rounded-md text-center font-bold border border-white/30">
+              {t('availableSoon') || 'Bientôt disponible'}
+            </div>
             <Link href="/adhesion" className="w-full">
               <Button variant="primary" className="w-full font-bold border-2 border-navy">
                 {t('formTitle')}

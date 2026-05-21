@@ -52,10 +52,9 @@ export default async function PressPage() {
               <p className="text-bluetint mb-6">
                 Téléchargez notre kit média comprenant le logo de l'ONSPEA en haute résolution, la charte graphique et une présentation institutionnelle.
               </p>
-              <Button variant="secondary" className="w-full sm:w-auto">
-                <Download className="w-5 h-5 mr-2 rtl:ml-2" />
-                Télécharger le Kit Média
-              </Button>
+              <div className="bg-white/10 text-white px-4 py-2 rounded-lg font-bold text-sm inline-block">
+                Bientôt disponible
+              </div>
             </div>
           </div>
 
