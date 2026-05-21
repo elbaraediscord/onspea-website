@@ -31,13 +31,13 @@ export default async function ServicesPage() {
     },
     {
       icon: BarChart3,
-      title: "Veille Économique",
-      desc: "Analyse des tendances du marché et rapports périodiques sur la conjoncture économique nationale.",
+      title: mt('m5title'),
+      desc: mt('m5desc'),
     },
     {
       icon: Globe,
-      title: "Accompagnement à l'Export",
-      desc: "Soutien aux entreprises algériennes souhaitant se développer sur les marchés internationaux.",
+      title: mt('m6title'),
+      desc: mt('m6desc'),
     }
   ];
 
@@ -46,7 +46,7 @@ export default async function ServicesPage() {
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         <SectionTitle
           title={t('services')}
-          subtitle="Une gamme complète de services dédiés à la croissance et à la protection de votre entreprise."
+          subtitle={mt('servicesSub')}
           centered
         />
         

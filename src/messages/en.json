@@ -15,6 +15,17 @@
     "joinCTA": "Join ONSPEA",
     "mailAccess": "Webmail Access"
   },
+  "press": {
+    "sub": "Space dedicated to journalists and media professionals.",
+    "contactTitle": "Press Contact",
+    "contactDesc": "For any interview, report, or additional information request, our press service is at your disposal.",
+    "kitTitle": "Media Kit",
+    "kitDesc": "Download our media kit including the ONSPEA logo in high resolution, the graphic charter, and an institutional presentation.",
+    "latestTitle": "Latest Communiqués",
+    "communique": "Press Release",
+    "read": "Read",
+    "viewAll": "View all communiqués"
+  },
   "hero": {
     "tag": "National Syndical Organisation",
     "title": "Serving Algerian business, at the heart of national economic dialogue",
@@ -31,7 +42,16 @@
     "bureau": "National Bureau",
     "statuts": "Statutes & Regulations",
     "homeDesc1": "The National Syndical Organisation of Algerian Employers and Entrepreneurs (ONSPEA) is a major employer organization in Algeria. It works to defend the interests of businesses and actively participates in the national economic dialogue.",
-    "homeDesc2": "Present across the country, ONSPEA unites entrepreneurs from all sectors of activity to build the economy of tomorrow together."
+    "homeDesc2": "Present across the country, ONSPEA unites entrepreneurs from all sectors of activity to build the economy of tomorrow together.",
+    "historyDesc": "Discover the journey and key milestones of ONSPEA's creation.",
+    "missionsDesc": "Our goals, values, and commitment to Algerian business.",
+    "bureauDesc": "Presentation of the members of the National Executive Bureau.",
+    "statutsDesc": "Consult the founding texts and internal regulations of the organization.",
+    "historyContent": [
+      "The National Syndical Organisation of Algerian Employers and Entrepreneurs (ONSPEA) was born from a common desire of Algerian business leaders to create a framework for consultation and defense of national economic interests.",
+      "Since its creation, the organization has established itself as a key player in the Algerian socio-economic landscape, actively participating in major reforms and dialogue with public authorities.",
+      "Our journey is marked by constant growth of our member network, now extending across the entire national territory, with a strong presence in the country's major economic hubs."
+    ]
   },
   "missions": {
     "title": "Our Missions",
@@ -43,7 +63,32 @@
     "m3title": "Professional Training",
     "m3desc": "Seminars, workshops, and study days on current economic themes.",
     "m4title": "National Business Network",
-    "m4desc": "Inter-member networking and B2B meetings by wilaya and sector."
+    "m4desc": "Inter-member networking and B2B meetings by wilaya and sector.",
+    "servicesSub": "A complete range of services dedicated to the growth and protection of your business.",
+    "m5title": "Economic Intelligence",
+    "m5desc": "Analysis of market trends and periodic reports on the national economic situation.",
+    "m6title": "Export Support",
+    "m6desc": "Support for Algerian companies wishing to develop in international markets.",
+    "missionPrincipalTitle": "Our Main Mission",
+    "missionPrincipalDesc": "ONSPEA's fundamental mission is to represent, defend, and promote the interests of Algerian employers and entrepreneurs. We act as a bridge between the private sector and public institutions to build a business environment favorable to growth and investment.",
+    "v1title": "Strategic Vision",
+    "v1desc": "Anticipate economic developments to better guide Algerian companies.",
+    "v2title": "Integrity",
+    "v2desc": "Promote rigorous and transparent business ethics within our network.",
+    "v3title": "Solidarity",
+    "v3desc": "Foster mutual aid between entrepreneurs to strengthen the national economic fabric.",
+    "v4title": "Innovation",
+    "v4desc": "Encourage modernization and digital transformation of member companies.",
+    "statutsSub": "Legal and regulatory framework of the organization",
+    "governanceTitle": "Governance & Transparency",
+    "governanceDesc": "ONSPEA is governed by rigorous statutes filed in accordance with Algerian legislation on syndical organizations. These texts define our mode of operation, the rights and duties of members, as well as the election procedures for our governing bodies.",
+    "statutsPoints": [
+      "Respect for democratic principles in decision-making.",
+      "Total transparency in the management of the organization's resources.",
+      "Commitment to the promotion of the national economy."
+    ],
+    "statutsDocTitle": "Official ONSPEA Statutes",
+    "statutsDocSize": "PDF Document — 1.2 MB"
   },
   "news": {
     "title": "Latest News",

@@ -27,15 +27,9 @@ export default async function HistoirePage() {
           </div>
           
           <div className="space-y-6 text-slate leading-relaxed">
-            <p>
-              L'Organisation Nationale Syndicale du Patronat et des Entrepreneurs Algériens (ONSPEA) est née d'une volonté commune de chefs d'entreprises algériens de créer un cadre de concertation et de défense des intérêts économiques nationaux.
-            </p>
-            <p>
-              Depuis sa création, l'organisation s'est imposée comme un acteur incontournable du paysage socio-économique algérien, participant activement aux grandes réformes et au dialogue avec les pouvoirs publics.
-            </p>
-            <p>
-              Notre parcours est marqué par une croissance constante de notre réseau de membres, s'étendant aujourd'hui sur l'ensemble du territoire national, avec une présence forte dans les pôles économiques majeurs du pays.
-            </p>
+            {t.rich('historyContent', {
+              p: (chunks) => <p>{chunks}</p>
+            })}
           </div>
         </div>
       </div>

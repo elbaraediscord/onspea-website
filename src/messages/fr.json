@@ -15,6 +15,17 @@
     "joinCTA": "Rejoindre l'ONSPEA",
     "mailAccess": "Accès messagerie"
   },
+  "press": {
+    "sub": "Espace dédié aux journalistes et professionnels des médias.",
+    "contactTitle": "Contact Presse",
+    "contactDesc": "Pour toute demande d'interview, de reportage ou d'information complémentaire, notre service de presse est à votre disposition.",
+    "kitTitle": "Kit Média",
+    "kitDesc": "Téléchargez notre kit média comprenant le logo de l'ONSPEA en haute résolution, la charte graphique et une présentation institutionnelle.",
+    "latestTitle": "Derniers Communiqués",
+    "communique": "Communiqué de presse",
+    "read": "Lire",
+    "viewAll": "Voir tous les communiqués"
+  },
   "hero": {
     "tag": "Organisation nationale syndicale",
     "title": "Au service de l'entreprise algérienne, au cœur du dialogue économique national",
@@ -31,7 +42,16 @@
     "bureau": "Bureau national",
     "statuts": "Statuts & Règlement",
     "homeDesc1": "L'Organisation Nationale Syndicale du Patronat et des Entrepreneurs Algériens (ONSPEA) est une organisation patronale majeure en Algérie. Elle œuvre pour la défense des intérêts des entreprises et participe activement au dialogue économique national.",
-    "homeDesc2": "Présente à travers le pays, l'ONSPEA fédère des entrepreneurs de tous secteurs d'activité pour construire ensemble l'économie de demain."
+    "homeDesc2": "Présente à travers le pays, l'ONSPEA fédère des entrepreneurs de tous secteurs d'activité pour construire ensemble l'économie de demain.",
+    "historyDesc": "Découvrez le parcours et les étapes clés de la création de l'ONSPEA.",
+    "missionsDesc": "Nos objectifs, nos valeurs et notre engagement pour l'entreprise algérienne.",
+    "bureauDesc": "Présentation des membres du Bureau Exécutif National.",
+    "statutsDesc": "Consultez les textes fondateurs et le règlement intérieur de l'organisation.",
+    "historyContent": [
+      "L'Organisation Nationale Syndicale du Patronat et des Entrepreneurs Algériens (ONSPEA) est née d'une volonté commune de chefs d'entreprises algériens de créer un cadre de concertation et de défense des intérêts économiques nationaux.",
+      "Depuis sa création, l'organisation s'est imposée comme un acteur incontournable du paysage socio-économique algérien, participant activement aux grandes réformes et au dialogue avec les pouvoirs publics.",
+      "Notre parcours est marqué par une croissance constante de notre réseau de membres, s'étendant aujourd'hui sur l'ensemble du territoire national, avec une présence forte dans les pôles économiques majeurs du pays."
+    ]
   },
   "missions": {
     "title": "Nos missions",
@@ -43,7 +63,32 @@
     "m3title": "Formation professionnelle",
     "m3desc": "Séminaires, ateliers et journées d'études sur les thèmes économiques d'actualité.",
     "m4title": "Réseau d'affaires national",
-    "m4desc": "Mise en relation inter-membres et rencontres B2B par wilaya et par secteur."
+    "m4desc": "Mise en relation inter-membres et rencontres B2B par wilaya et par secteur.",
+    "servicesSub": "Une gamme complète de services dédiés à la croissance et à la protection de votre entreprise.",
+    "m5title": "Veille Économique",
+    "m5desc": "Analyse des tendances du marché et rapports périodiques sur la conjoncture économique nationale.",
+    "m6title": "Accompagnement à l'Export",
+    "m6desc": "Soutien aux entreprises algériennes souhaitant se développer sur les marchés internationaux.",
+    "missionPrincipalTitle": "Notre Mission Principale",
+    "missionPrincipalDesc": "L'ONSPEA a pour mission fondamentale de représenter, de défendre et de promouvoir les intérêts des patrons et entrepreneurs algériens. Nous agissons comme un pont entre le secteur privé et les institutions publiques pour construire un environnement d'affaires favorable à la croissance et à l'investissement.",
+    "v1title": "Vision Stratégique",
+    "v1desc": "Anticiper les évolutions économiques pour mieux orienter les entreprises algériennes.",
+    "v2title": "Intégrité",
+    "v2desc": "Promouvoir une éthique des affaires rigoureuse et transparente au sein de notre réseau.",
+    "v3title": "Solidarité",
+    "v3desc": "Favoriser l'entraide entre entrepreneurs pour renforcer le tissu économique national.",
+    "v4title": "Innovation",
+    "v4desc": "Encourager la modernisation et la transformation numérique des entreprises membres.",
+    "statutsSub": "Cadre légal et réglementaire de l'organisation",
+    "governanceTitle": "Gouvernance & Transparence",
+    "governanceDesc": "L'ONSPEA est régie par des statuts rigoureux déposés conformément à la législation algérienne sur les organisations syndicales. Ces textes définissent notre mode de fonctionnement, les droits et devoirs des membres, ainsi que les procédures d'élection de nos instances dirigeantes.",
+    "statutsPoints": [
+      "Respect des principes démocratiques dans la prise de décision.",
+      "Transparence totale dans la gestion des ressources de l'organisation.",
+      "Engagement pour la promotion de l'économie nationale."
+    ],
+    "statutsDocTitle": "Statuts Officiels ONSPEA",
+    "statutsDocSize": "Document PDF — 1.2 Mo"
   },
   "news": {
     "title": "Dernières actualités",

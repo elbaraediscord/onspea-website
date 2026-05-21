@@ -13,25 +13,25 @@ export default async function AboutPage() {
       title: t('history'),
       href: '/a-propos/histoire',
       icon: History,
-      desc: "Découvrez le parcours et les étapes clés de la création de l'ONSPEA."
+      desc: t('historyDesc')
     },
     {
       title: t('missions'),
       href: '/a-propos/missions',
       icon: Target,
-      desc: "Nos objectifs, nos valeurs et notre engagement pour l'entreprise algérienne."
+      desc: t('missionsDesc')
     },
     {
       title: t('bureau'),
       href: '/a-propos/bureau-national',
       icon: Users,
-      desc: "Présentation des membres du Bureau Exécutif National."
+      desc: t('bureauDesc')
     },
     {
       title: t('statuts'),
       href: '/a-propos/statuts',
       icon: FileText,
-      desc: "Consultez les textes fondateurs et le règlement intérieur de l'organisation."
+      desc: t('statutsDesc')
     }
   ];
 

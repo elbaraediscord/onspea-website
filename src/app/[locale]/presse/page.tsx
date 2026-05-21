@@ -8,22 +8,25 @@ import { Link } from '@/i18n/navigation';
 
 export default async function PressPage() {
   const t = await getTranslations('nav');
+  const pt = await getTranslations('press');
+  const ct = await getTranslations('contact');
+  const comT = await getTranslations('common');
 
   return (
     <div className="py-20">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         <SectionTitle
           title={t('press')}
-          subtitle="Espace dédié aux journalistes et professionnels des médias."
+          subtitle={pt('sub')}
           centered
         />
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
           <div className="space-y-8">
-            <h3 className="text-2xl font-bold text-navy">Contact Presse</h3>
+            <h3 className="text-2xl font-bold text-navy">{pt('contactTitle')}</h3>
             <Card className="p-8">
               <p className="text-slate mb-8">
-                Pour toute demande d'interview, de reportage ou d'information complémentaire, notre service de presse est à votre disposition.
+                {pt('contactDesc')}
               </p>
               <div className="space-y-4">
                 <div className="flex items-center">
@@ -31,7 +34,7 @@ export default async function PressPage() {
                     <Mail className="w-5 h-5 text-gold" />
                   </div>
                   <div>
-                    <span className="text-xs text-slate-light block">E-mail</span>
+                    <span className="text-xs text-slate-light block">{ct('email')}</span>
                     <span className="font-bold text-navy">presse@onspea-centre.com</span>
                   </div>
                 </div>
@@ -40,7 +43,7 @@ export default async function PressPage() {
                     <Phone className="w-5 h-5 text-gold" />
                   </div>
                   <div>
-                    <span className="text-xs text-slate-light block">Téléphone</span>
+                    <span className="text-xs text-slate-light block">{ct('phone')}</span>
                     <span className="font-bold text-navy">0661 247 676</span>
                   </div>
                 </div>
@@ -48,18 +51,18 @@ export default async function PressPage() {
             </Card>
             
             <div className="bg-navy p-8 rounded-2xl text-white">
-              <h4 className="text-xl font-bold mb-4 text-gold">Kit Média</h4>
+              <h4 className="text-xl font-bold mb-4 text-gold">{pt('kitTitle')}</h4>
               <p className="text-bluetint mb-6">
-                Téléchargez notre kit média comprenant le logo de l'ONSPEA en haute résolution, la charte graphique et une présentation institutionnelle.
+                {pt('kitDesc')}
               </p>
               <div className="bg-white/10 text-white px-4 py-2 rounded-lg font-bold text-sm inline-block">
-                Bientôt disponible
+                {comT('availableSoon')}
               </div>
             </div>
           </div>
 
           <div className="space-y-8">
-            <h3 className="text-2xl font-bold text-navy">Derniers Communiqués</h3>
+            <h3 className="text-2xl font-bold text-navy">{pt('latestTitle')}</h3>
             <div className="space-y-4">
               {[1, 2, 3].map((i) => (
                 <Card key={i} className="flex items-center justify-between group">
@@ -68,19 +71,19 @@ export default async function PressPage() {
                       <FileText className="w-6 h-6 text-navy group-hover:text-gold transition-colors" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-navy text-sm">Communiqué de presse #{i}</h4>
-                      <span className="text-xs text-slate-light">Publié le 15 Mai 2026</span>
+                      <h4 className="font-bold text-navy text-sm">{pt('communique')} #{i}</h4>
+                      <span className="text-xs text-slate-light">{comT('publishedOn')} 15 Mai 2026</span>
                     </div>
                   </div>
                   <Link href="/actualites" className="text-gold hover:underline text-sm font-bold">
-                    Lire
+                    {pt('read')}
                   </Link>
                 </Card>
               ))}
             </div>
             <Link href="/actualites" className="inline-block w-full">
               <Button variant="outline" className="w-full">
-                Voir tous les communiqués
+                {pt('viewAll')}
               </Button>
             </Link>
           </div>

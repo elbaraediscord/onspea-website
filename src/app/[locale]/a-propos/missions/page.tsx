@@ -11,23 +11,23 @@ export default async function MissionsPage() {
   const values = [
     {
       icon: Target,
-      title: "Vision Stratégique",
-      desc: "Anticiper les évolutions économiques pour mieux orienter les entreprises algériennes."
+      title: mt('v1title'),
+      desc: mt('v1desc')
     },
     {
       icon: Shield,
-      title: "Intégrité",
-      desc: "Promouvoir une éthique des affaires rigoureuse et transparente au sein de notre réseau."
+      title: mt('v2title'),
+      desc: mt('v2desc')
     },
     {
       icon: Users,
-      title: "Solidarité",
-      desc: "Favoriser l'entraide entre entrepreneurs pour renforcer le tissu économique national."
+      title: mt('v3title'),
+      desc: mt('v3desc')
     },
     {
       icon: Lightbulb,
-      title: "Innovation",
-      desc: "Encourager la modernisation et la transformation numérique des entreprises membres."
+      title: mt('v4title'),
+      desc: mt('v4desc')
     }
   ];
 
@@ -36,15 +36,15 @@ export default async function MissionsPage() {
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         <SectionTitle
           title={t('missions')}
-          subtitle="Nos engagements pour le patronat algérien"
+          subtitle={mt('sub')}
           centered
         />
         
         <div className="mt-12 space-y-12">
           <div className="bg-navy text-white p-8 md:p-12 rounded-3xl shadow-xl">
-            <h3 className="text-2xl font-bold mb-6 text-gold">Notre Mission Principale</h3>
+            <h3 className="text-2xl font-bold mb-6 text-gold">{mt('missionPrincipalTitle')}</h3>
             <p className="text-lg leading-relaxed opacity-90">
-              L'ONSPEA a pour mission fondamentale de représenter, de défendre et de promouvoir les intérêts des patrons et entrepreneurs algériens. Nous agissons comme un pont entre le secteur privé et les institutions publiques pour construire un environnement d'affaires favorable à la croissance et à l'investissement.
+              {mt('missionPrincipalDesc')}
             </p>
           </div>
 
